@@ -1,8 +1,11 @@
-
-function App() {
-  return <div className="App">
-    <h1>hello world</h1>
-  </div>;
+import React, { Component } from "react";
+import Menu from "./menu";
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Menu />
+      </div>
+    );
+  }
 }
-
-export default App;
