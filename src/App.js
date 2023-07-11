@@ -12,7 +12,6 @@ function App() {
     </div>
   );
 }
-
 function Avatar(props) {
   return <img src={props.link} className="avatar" alt="avatar" />;
 }
@@ -21,23 +20,64 @@ function Intro(props) {
   return <p>{props.text}</p>;
 }
 
+const skills = [
+  {
+    id: 1,
+    skill: "HTML+CSS",
+    level: "advanced",
+    color: "#2662EA",
+  },
+  {
+    id: 2,
+    skill: "JavaScript",
+    level: "advanced",
+    color: "#EFD81D",
+  },
+  {
+    id: 3,
+    skill: "Web Design",
+    level: "advanced",
+    color: "#C3DCAF",
+  },
+  {
+    id: 4,
+    skill: "Git and GitHub",
+    level: "intermediate",
+    color: "#E84F33",
+  },
+  {
+    id: 5,
+    skill: "React",
+    level: "advanced",
+    color: "#60DAFB",
+  },
+  {
+    id: 6,
+    skill: "Svelte",
+    level: "beginner",
+    color: "#FF3B00",
+  },
+];
+
 function SkillList(props) {
   return (
     <div className="skill-list">
-      <Skill color="blue" body="HTML+CSS 💪" />
-      <Skill color="yellow" body="JavaScript 👍🏿" />
-      <Skill color="lightgreen" body="Web Design 💪" />
-      <Skill color="red" body="Git and GitHub 💪" />
-      <Skill color="lightblue" body="React 👍🏿" />
-      <Skill color="red" body="Svelte 👶🏽" />
+      {skills.map((e) => (
+        <Skill key={e.id} color={e.color} skill={e.skill} level={e.level} />
+      ))}
     </div>
   );
 }
 
-function Skill(props) {
+function Skill({ skill, level, color }) {
   return (
-    <div className="skill" style={{ background: props.color }}>
-      {props.body}
+    <div className="skill" style={{ background: color }}>
+      <span>{skill}</span>
+      <span>
+        {level === "advanced" && "💪"}
+        {level === "intermediate" && "👍🏿"}
+        {level === "beginner" && "👶🏽"}
+      </span>
     </div>
   );
 }
