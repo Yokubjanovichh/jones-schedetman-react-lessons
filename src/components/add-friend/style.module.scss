@@ -1,0 +1,37 @@
+.addFriend {
+  background: #fcf3e0;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .friedName {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    label {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    input {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 3px;
+    }
+  }
+  button {
+    width: 162px;
+    margin-left: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background: #fd9f41;
+    color: #000;
+    text-transform: capitalize;
+    transition: all 0.01s ease-in-out;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}

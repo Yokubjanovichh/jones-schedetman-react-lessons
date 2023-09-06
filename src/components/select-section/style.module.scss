@@ -1,0 +1,45 @@
+.selctSection {
+  width: 420px;
+  background: #fcf3e0;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input,
+    select {
+      width: 130px;
+      padding: 7px 0px;
+      border: none;
+      border-radius: 3px;
+      text-align: center;
+    }
+    label {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+  }
+  button {
+    width: 130px;
+    margin-left: auto;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #faa045;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.01s ease-in-out;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}

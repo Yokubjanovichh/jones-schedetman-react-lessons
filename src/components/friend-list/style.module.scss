@@ -1,0 +1,53 @@
+.wrapper {
+  width: 370px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-radius: 10px;
+  &:hover {
+    background: #fcf3e0;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  & > div {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-left: 20px;
+    & > p:first-child {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.667);
+    }
+    & > p:last-child {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 11px;
+    }
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #faa045;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.01s ease-in-out;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.isSelected {
+  background: #fcf3e0 !important;
+}
