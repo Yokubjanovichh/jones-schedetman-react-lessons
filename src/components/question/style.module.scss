@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  h2 {
+    font-family: sans;
+    font-weight: 400;
+    color: #ffff;
+    letter-spacing: 2px;
+    font-size: 32px;
+  }
+  .container_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    button {
+      width: 500px;
+      padding: 15px 25px;
+      color: #ffff;
+      border: 1px solid #3e474c;
+      border-radius: 22px;
+      background: #3e474c;
+      text-align: left;
+      font-size: 18px;
+      font-family: sans;
+      letter-spacing: 1px;
+      transition: all 0.05s linear;
+      &:hover {
+        background: #3e474c49;
+        border: 1px solid #3e474c;
+        transform: translateX(10px);
+      }
+      &:active {
+        transform: scale(0.99);
+      }
+    }
+  }
+}
+
+.answer {
+  transform: translateX(10px);
+}
+
+.correct {
+  background: #188ba1 !important;
+}
+
+.wrong {
+  background: #fea242 !important;
+}

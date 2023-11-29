@@ -1,0 +1,10 @@
+export { default as Main } from "./main/main";
+export { default as Error } from "./error/error";
+export { default as Start } from "./start/start";
+export { default as TimeBtn } from "./btns/TimeBtn";
+export { default as NextBtn } from "./btns/NextBtn";
+export { default as Header } from "./header/header";
+export { default as Loading } from "./laoding/loading";
+export { default as Question } from "./question/question";
+export { default as ProgressBar } from "./progress/ProgressBar";
+export { default as Finished } from "./finished-page/Finished";

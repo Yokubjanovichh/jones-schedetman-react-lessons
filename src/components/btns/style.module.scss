@@ -1,0 +1,32 @@
+.button {
+  padding: 15px 25px;
+  color: #ffff;
+  border: 1px solid #3e474c;
+  border-radius: 22px;
+  background: #3e474c;
+  text-align: left;
+  font-size: 18px;
+  font-family: sans;
+  letter-spacing: 1px;
+  transition: all 0.05s linear;
+  &:hover {
+    background: #3e474c49;
+    border: 1px solid #3e474c;
+  }
+  &:active {
+    transform: scale(0.99);
+  }
+}
+
+.buttonTimer {
+  padding: 15px 25px;
+  color: #ffff;
+  border-radius: 22px;
+  background: #3e474c49;
+  border: 1px solid #3e474c;
+  text-align: left;
+  font-size: 18px;
+  font-family: sans;
+  letter-spacing: 1px;
+  transition: all 0.05s linear;
+}

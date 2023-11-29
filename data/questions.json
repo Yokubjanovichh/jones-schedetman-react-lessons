@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Who developed React.js?",
+      "options": ["Google", "Facebook", "Microsoft", "Apple"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What language is React.js written in?",
+      "options": ["Python", "Java", "C#", "JavaScript"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What is JSX in React?",
+      "options": ["A CSS framework", "A database", "A JavaScript extension", "A web server"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What is a component in React?",
+      "options": ["A JavaScript function", "A CSS rule", "An HTML tag", "A database query"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the virtual DOM in React?",
+      "options": ["A database", "A copy of the real DOM", "A web server", "A CSS rule"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is 'props' in React?",
+      "options": ["A CSS rule", "An HTML tag", "A database query", "Properties of a component"],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What is 'state' in React?",
+      "options": ["Data that can change over time", "A CSS rule", "An HTML tag", "A database query"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is 'React Hooks'?",
+      "options": ["Functions that let you use state and other React features", "A CSS rule", "An HTML tag", "A database query"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is Redux in the context of React?",
+      "options": ["A CSS rule", "A state management library", "An HTML tag", "A database query"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "What is React Native?",
+      "options": ["An HTML tag", "A framework for building native apps using React", "A CSS rule", "A database query"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is a key in React?",
+      "options": ["A special string attribute you need when creating lists of elements", "A CSS rule", "An HTML tag", "A database query"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "What is a higher-order component (HOC) in React?",
+      "options": ["An HTML tag", "A database query", "A function that takes a component and returns a new component", "A CSS rule"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is context in React?",
+      "options": ["A CSS rule", "An HTML tag", "A way to pass data through the component tree without having to pass props down manually at every level", "A database query"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What is a fragment in React?",
+      "options": ["A database query", "A common pattern for a component to return multiple elements", "A CSS rule", "An HTML tag"],
+      "correctOption": 1,
+      "points": 30
+    }
+  ]
+}

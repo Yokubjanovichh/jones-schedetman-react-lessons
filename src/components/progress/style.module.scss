@@ -1,0 +1,31 @@
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 40px 0px;
+  .progressContainer {
+    width: 500px;
+    height: 10px;
+    border-radius: 5px;
+    background: #c5cdd2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    .progressItem {
+      height: 10px;
+      background: rgba(0, 0, 255, 0.527);
+      border-radius: 5px;
+    }
+  }
+  .progressInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #c5cdd2;
+  }
+}
