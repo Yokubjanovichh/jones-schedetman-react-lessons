@@ -7,3 +7,19 @@
 body {
   font-family: sans-serif;
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.App button {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
